@@ -20,3 +20,5 @@ print(type(age))
 age_in_words = "2 years"
 print(name + f" is {age} years old")
 print(type(age))
+
+print(f"Pe is apprximately {22/ 7:12.50f}")
