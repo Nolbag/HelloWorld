@@ -1,0 +1,10 @@
+day = "Friday"
+temperature = 30
+raining = False
+
+if (day == "Saturday" and temperature > 27) or not raining:
+    print("Go swimming")
+else:
+    print("Learn Python")
+# The code above checks if it is Saturday and the temperature is above 27 degrees, or if it is not raining.
+# If either condition is true, it suggests going swimming; otherwise, it suggests learning Python.
