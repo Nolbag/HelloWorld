@@ -9,4 +9,4 @@ for char in number:
 print(separators) # ,;:
 
 values ="".join(char if char not in separators else " " for char in number).split()
-print([int(val) for val in values]) # [9223372036854775807]
+print(sum([int(val) for val in values]))
