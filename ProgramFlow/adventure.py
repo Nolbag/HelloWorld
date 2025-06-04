@@ -7,5 +7,6 @@ while chosen_exit not in available_exits:
         print("Game Over")
         break
 
-print("aren't you glad you got out of there")
+else:
+    print("Aren't you glad you got out of there")
 # The code above is a simple text-based adventure game where the player can choose a direction to exit.
